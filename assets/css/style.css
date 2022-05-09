@@ -1,0 +1,100 @@
+.table-action .dropdown-menu li a:hover{
+  background: #496edb!important;
+  border-radius: 5px;
+  color: #fff;
+  width: 95%;
+  margin: 0 auto;
+}
+.evento {
+  padding: 10px;
+  cursor: pointer;
+}
+.evento:hover .icon-evento {
+  display: inline-block;
+}
+.icon-evento {
+  display: none;
+  font-size: 25px;
+  cursor: pointer;
+  padding: 2px;
+  border-radius: 5px;
+}
+.icon-evento:hover {
+  opacity: .8;
+}
+.evento .btn-orden {
+  background: orange;
+  color: black;
+}
+
+.evento .btn-ver-orden {
+  background: green;
+  color: black;
+}
+
+.grey-bg {  
+  background-color: #F5F7FA;
+}
+
+.color-navbar {
+
+  background-color: #272C33!important;
+
+  background-image: linear-gradient(
+180deg
+,#272C33 10%,#272C33 100%)!important;
+}
+/* colores botones */
+.color-btn {
+  background-color: #272C33!important;
+}
+.color-btn.focus, .color-btn:focus {
+    background-color: #272C33!important;
+    box-shadow: 0 0 0 0.2rem rgb(102 102 102 / 50%)!important;
+}
+
+/* color border left */
+.border-left-primary {
+    border-left: .25rem solid #666666!important;
+}
+
+
+/* estilo a modulo de inicio en el card */
+.taget-card {
+  border-radius: 20px!important;
+}
+.bg-red-wine {
+  background-color: #272C33!important;
+}
+.bg-purple {
+  background-color: #7937AB!important;
+}
+.bg-orange {
+  background-color: #FB8738!important;
+}
+.bg-red {
+  background-color: #FF0505!important;
+}
+
+.finalizado, .pendiente, .vencido{
+  font-size: 12px;
+  padding: 2px 5px;
+  border-radius: 10px;
+  color: white;
+}
+.finalizado {
+  background: green;
+}
+.pendiente {
+
+  background: orange;
+}
+.vencido {
+  background: red;
+}
+.col-md-4 {
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
